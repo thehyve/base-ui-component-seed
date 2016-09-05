@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="ts.my-directive.demo">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>My Directive Demo</title>
+    <script src="../bower_components/angular/angular.min.js"></script>
+    <script src="../dist/my-directive.min.js"></script>
+    <script src="demo.js"></script>
 </head>
 <body>
-
+    <div ng-controller="DemoCtrl">
+        This is demo.
+        <my-directive></my-directive>
+    </div>
 </body>
 </html>

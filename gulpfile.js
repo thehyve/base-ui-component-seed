@@ -9,7 +9,7 @@ var gulp = require('gulp');
 var rename = require('gulp-rename');
 var uglify = require('gulp-uglify');
 
-var DEST = 'dist/';
+var DEST = './dist/';
 
 gulp.task('default', function() {
     return gulp.src('my-directive.js')
