@@ -1,0 +1,24 @@
+{
+  "name": "base-ui-component-seeds",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular": "^1.5.8"
+  },
+  "homepage": "https://github.com/thehyve/base-ui-component-seeds",
+  "description": "Angular JS plugin skeleton for a transmart UI.",
+  "main": "my-directive.js",
+  "keywords": [
+    "transmart",
+    "plugin",
+    "skeleton"
+  ],
+  "license": "GPLv3",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

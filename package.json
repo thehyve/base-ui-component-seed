@@ -1,0 +1,32 @@
+{
+  "name": "base-ui-component-seeds",
+  "version": "1.0.0",
+  "description": "skeleton for transmart angular plugin",
+  "main": "my-directive.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thehyve/base-ui-component-seeds.git"
+  },
+  "keywords": [
+    "angular",
+    "transmart",
+    "plugin",
+    "template",
+    "seeds",
+    "skeleton"
+  ],
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/thehyve/base-ui-component-seeds/issues"
+  },
+  "homepage": "https://github.com/thehyve/base-ui-component-seeds#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0"
+  }
+}
