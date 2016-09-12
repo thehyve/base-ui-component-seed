@@ -3,20 +3,18 @@
  * This code is licensed under the GNU General Public License,
  * version 3, or (at your option) any later version.
  */
+
 'use strict';
 
-var gulp = require('gulp');
-var rename = require('gulp-rename');
-var uglify = require('gulp-uglify');
+const gulp = require('gulp');
+const HubRegistry = require('gulp-hub');
+const conf = require('./conf/gulp.conf');
 
-var DEST = './dist/';
+// Load some files into the registry
+const hub = new HubRegistry([conf.path.tasks('*.js')]);
 
-gulp.task('default', function() {
-    return gulp.src('my-directive.js')
-        // This will output the non-minified version
-        .pipe(gulp.dest(DEST))
-        // This will minify and rename to *.min.js
-        .pipe(uglify())
-        .pipe(rename({ extname: '.min.js' }))
-        .pipe(gulp.dest(DEST));
-});
+// Tell gulp to use the tasks just loaded
+gulp.registry(hub);
+
+gulp.task('test', gulp.series('scripts', 'karma:single-run'));
+gulp.task('build', gulp.series('clean', 'partials', 'copy-to-tmp', 'build'));
