@@ -21,11 +21,11 @@ Clone this repository using git:
 
 git clone https://github.com/thehyve/base-ui-component-seeds.git
 ```bash
-cd base-ui-component-seeds
+$ cd base-ui-component-seeds
 ```
 If you just want to start a new project without commit history then you can do:
 ```bash
-git clone --depth=1  https://github.com/thehyve/base-ui-component-seeds.git <your-project-name>
+$ git clone --depth=1  https://github.com/thehyve/base-ui-component-seeds.git <your-project-name>
 ```
 The `depth=1`  tells git to only pull down one commit worth of historical data.
 
@@ -51,7 +51,7 @@ $ bower install
 To install this component in other web app, you can bower install like this
 
 ```bash
-bower install your-project-name
+$ bower install your-project-name
 ```
 
 The component is installed, and make sure file is loaded in the html header to load the script. We also have to add the 
