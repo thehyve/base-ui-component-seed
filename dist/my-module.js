@@ -8,3 +8,5 @@ angular.module('ts.my-module', [])
     .component('myComponent',{
             templateUrl: 'my-module.html'
     });
+
+angular.module('src').run(['$templateCache', function($templateCache) {$templateCache.put('src/my-module.html','<h1>MY COMPONENT</h1>\n');}]);

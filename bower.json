@@ -9,6 +9,7 @@
   },
   "homepage": "https://github.com/thehyve/base-ui-component-seeds",
   "description": "Angular JS plugin skeleton for a transmart UI.",
+  "main": "dist/my-directive.js",
   "keywords": [
     "transmart",
     "plugin",
