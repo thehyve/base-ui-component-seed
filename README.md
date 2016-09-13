@@ -19,13 +19,13 @@ manager (npm) installed. https://docs.npmjs.com/getting-started/installing-node
 
 Clone this repository using git:
 
-git clone https://github.com/thehyve/base-ui-component-seeds.git
+git clone https://github.com/thehyve/base-ui-component-seed.git
 ```bash
-$ cd base-ui-component-seeds
+$ cd base-ui-component-seed
 ```
 If you just want to start a new project without commit history then you can do:
 ```bash
-$ git clone --depth=1  https://github.com/thehyve/base-ui-component-seeds.git <your-project-name>
+$ git clone --depth=1  https://github.com/thehyve/base-ui-component-seed.git <your-project-name>
 ```
 The `depth=1`  tells git to only pull down one commit worth of historical data.
 
