@@ -13,7 +13,6 @@ describe('my component', function () {
     }));
     it('should render MY COMPONENT', angular.mock.inject(function ($rootScope, $compile) {
         var element = $compile('<my-component></my-component>')($rootScope);
-        console.log(element)
         $rootScope.$digest();
         var h1 = element.find('h1');
         expect(h1.html()).toEqual('MY COMPONENT');

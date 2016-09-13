@@ -11,7 +11,6 @@ const rename = require('gulp-rename');
 const conf = require('../conf/gulp.conf');
 const ngAnnotate = require('gulp-ng-annotate');
 
-
 gulp.task('unify', unify);
 gulp.task('compact', compact);
 

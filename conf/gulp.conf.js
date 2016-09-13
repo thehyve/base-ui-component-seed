@@ -16,7 +16,7 @@
 const path = require('path');
 const gutil = require('gulp-util');
 
-exports.ngModule = 'src';
+exports.ngModule = 'ts.my-module';
 
 /**
  *  The main paths of your project handle these with care

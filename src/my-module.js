@@ -6,5 +6,5 @@
 
 angular.module('ts.my-module', [])
     .component('myComponent',{
-            templateUrl: 'my-module.html'
+            templateUrl: 'src/my-module.html'
     });
