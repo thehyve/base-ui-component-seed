@@ -61,7 +61,6 @@ or if you have it as new project in different name:
 $ bower install <your-project-name>
 ```
 
-
 The component is installed, and make sure file is loaded in the html header to load the script. We also have to add the 
 component's module as a dependency to our app's main list of dependencies. Open up the JavaScript file defining your 
 top-level app, and add the following:
@@ -74,6 +73,16 @@ angular.module('myApp', [
 config(function () {
   // ...
 ```
+
+Use the sample component in your project view:
+
+```html
+<my-component></my-component>
+```
+
+You are supposed to see following label rendered in your app:
+### MY COMPONENT
+
 
 ## Register as bower component
 
