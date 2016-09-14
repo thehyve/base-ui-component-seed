@@ -23,7 +23,7 @@ git clone https://github.com/thehyve/base-ui-component-seed.git
 ```bash
 $ cd base-ui-component-seed
 ```
-If you just want to start a new project without commit history then you can do:
+If you just want to start a new project without commit history and with your own project name, then you can do:
 ```bash
 $ git clone --depth=1  https://github.com/thehyve/base-ui-component-seed.git <your-project-name>
 ```
@@ -48,19 +48,28 @@ $ bower install
 
 ## Usage
 
-To install this component in other web app, you can bower install like this
+This skeleton already has a working and ready to use sample component. To install this component in other web app, you 
+can bower install like this
 
 ```bash
-$ bower install your-project-name
+$ bower install thehyve/base-ui-component-seed
 ```
+
+or if you have it as new project in different name:
+
+```bash
+$ bower install <your-project-name>
+```
+
 
 The component is installed, and make sure file is loaded in the html header to load the script. We also have to add the 
 component's module as a dependency to our app's main list of dependencies. Open up the JavaScript file defining your 
 top-level app, and add the following:
+
 ```js
 angular.module('myApp', [
   // ...
-  'your-component-name'
+  'ts.my-module'
 ]).
 config(function () {
   // ...
